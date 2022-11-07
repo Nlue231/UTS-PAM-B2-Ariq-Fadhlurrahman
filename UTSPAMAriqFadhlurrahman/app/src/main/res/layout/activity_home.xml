@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2C3EE4"
+        android:text="Menghitung Nilai Mahasiswa"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16pt" />
+
+    <EditText
+        android:id="@+id/ednama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="Nama Mahasiswa"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/ednim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="Nomor Induk Mahasiswa"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/edpemdas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="Nilai Pemrograman Dasar"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/edstruktur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="Nilai Struktur Data"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/edaplikom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="Nilai Aplikasi Komputer"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonhitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H I T U N G"
+        android:onClick="hitung"/>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Nilai IPK"
+        android:textSize="8pt"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/ednilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Grade IPK"
+        android:textSize="8pt"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/edhuruf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:text="" />
+</LinearLayout>
